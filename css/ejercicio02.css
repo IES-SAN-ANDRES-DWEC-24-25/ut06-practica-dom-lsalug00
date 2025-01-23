@@ -1,0 +1,48 @@
+/* Estilo inicial del body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centrar el contenido */
+    margin-top: 10%; /* Ajustar margen superior */
+  }
+
+  /* Contenedor para la lista y el botón */
+  .container {
+    display: inline-block;
+    text-align: left; /* Alinear el texto de la lista a la izquierda */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+
+  /* Clase para fondo oscuro */
+  .inverso {
+    background-color: black;
+    color: white;
+    border-color: white; /* Cambiar color del borde también */
+  }
+
+  /* Estilo de la lista */
+  ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 5px 0; /* Espaciado entre los elementos de la lista */
+  }
+
+  /* Estilo del botón */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+  }
+
+  button:hover {
+    background-color: #0056b3; /* Efecto hover */
+  }
